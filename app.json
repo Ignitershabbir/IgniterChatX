@@ -1,0 +1,7 @@
+{
+  "expo": {
+    "name": "Igniter ChatX",
+    "slug": "igniter-chatx",
+    "android": {"package": "com.igniter.chat"}
+  }
+}
