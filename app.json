@@ -1,7 +1,31 @@
 {
   "expo": {
-    "name": "Igniter ChatX",
-    "slug": "igniter-chatx",
-    "android": {"package": "com.igniter.chat"}
+    "name": "IgniterChatX",
+    "slug": "IgniterChatX",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A1129"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.igniter.chatx",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0A1129"
+      }
+    },
+    "sdkVersion": "51.0.0",
+    "platforms": ["ios", "android"],
+    
+    "extra": {
+      "eas": {
+        "projectId": "PASTE_YOUR_PROJECT_ID_HERE"
+      }
+    }
   }
 }
